@@ -1,5 +1,6 @@
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
+var ip = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
 
 const http = require('http');
 
@@ -11,7 +12,7 @@ const server = http.createServer(function(req, res) {
 });
 
 
-server.listen(8080);
+server.listen(port,ip);
 
 
 
