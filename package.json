@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-russjohnson09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russjohnson09/nodejs-russjohnson09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russjohnson09/nodejs-russjohnson09/issues"
+  },
+  "homepage": "https://github.com/russjohnson09/nodejs-russjohnson09#readme"
+}
